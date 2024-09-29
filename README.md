@@ -7,10 +7,17 @@ Run this command to install the libraries needed.
 !pip install -Uqq fastai matplotlib
 ```
 # Data collection
-The images are taken from ISIC (International Skin Imaging Collaboration), which provides public datasets of dermoscopic images. The following image is a batch of images.
+The images are taken from ISIC (International Skin Imaging Collaboration), which provides public datasets of dermoscopic images. The datasets used are:
+https://api.isic-archive.com/collections/63/ 
+https://api.isic-archive.com/collections/67/ 
+https://api.isic-archive.com/collections/73/
+
+The following image is a batch of images.
+
 ![sample](https://github.com/TheLeg-end27/Melanoma-Classification/blob/main/readme_images/sample.png)
 # Model training
 I've used google colab for the model training process, as this can require a lot of processing power. This process took longer due to the volume of images.
+
 ![finetune](https://github.com/TheLeg-end27/Melanoma-Classification/blob/main/readme_images/train.png)
 ![test](https://github.com/TheLeg-end27/Melanoma-Classification/blob/main/readme_images/test.png)
 # Evaluation
